@@ -1,0 +1,46 @@
+<svg
+  width="150"
+  height="150"
+  viewBox="0 0 150 150"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="80%" y1="80%" x2="100%" y2="100%" gradientTransform="rotate(267)">
+      <stop offset="0.25%" stop-color="#DF8908"/>
+      <stop offset="100%" stop-color="#B415FF"/>
+    </linearGradient>
+  </defs>
+<!-- linear-gradient(270deg , #DF8908 80% ,#B415FF 100%); -->
+  <!-- Background Circle with Gradient -->
+  <circle cx="75" cy="75" r="70" fill="url(#gradient)" stroke="none"/>
+
+  <!-- Letter A -->
+  <path
+    d="M45 105 L75 30 L105 105"
+    stroke="white"
+    stroke-width="8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  
+  <!-- Horizontal Line in A -->
+  <line
+    x1="58"
+    y1="80"
+    x2="92"
+    y2="80"
+    stroke="white"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+  
+  <!-- Small Dot (Symbol for Creativity) -->
+  <circle cx="115" cy="35" r="6" fill="white"/>
+
+  <!-- Text -->
+  <text x="30" y="140" font-family="Arial, sans-serif" font-size="14" fill="white">
+    Abhishek Portfolio
+  </text>
+</svg>
