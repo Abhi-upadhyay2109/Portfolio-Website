@@ -4,8 +4,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ToastContainer, toast } from 'react-toastify';
 import { ReactTyped } from "react-typed";
 
-const resume = `${import.meta.env.BASE_URL}assets/Resume.pdf`;  
-const profile = `${import.meta.env.BASE_URL}assets/profile.jpg`;
+const resume = `${import.meta.env.BASE_URL}/Resume.pdf`;  
+const profile = `${import.meta.env.BASE_URL}/profile.jpg`;
 
 const Hero = () => {
   const handleDownload = (event) => {

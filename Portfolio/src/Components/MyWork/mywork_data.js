@@ -1,9 +1,9 @@
-import project1_img from '/assets/nordstrom.png'
-import project2_img from '/assets/full-stack-app.png'
-import project3_img from '/assets/movie-search.png'
-import project4_img from '/assets/task-mangement.png'
-import project5_img from '/assets/todo-backend.png'
-import project6_img from '/assets/product-page.png'
+import project1_img from '/nordstrom.png'
+import project2_img from '/full-stack-app.png'
+import project3_img from '/movie-search.png'
+import project4_img from '/task-mangement.png'
+import project5_img from '/todo-backend.png'
+import project6_img from '/product-page.png'
 
 const mywork_data = [
     {

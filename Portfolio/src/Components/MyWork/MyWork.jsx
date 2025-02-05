@@ -1,6 +1,6 @@
 import React from 'react'
 import './MyWork.css'
-import theme_pattern from '/assets/theme_pattern.svg'
+import theme_pattern from '/theme_pattern.svg'
 import mywork_data from './mywork_data'
 
 

@@ -1,8 +1,8 @@
 import React from 'react'
 import './About.css'
-import theme_pattern from '/assets/theme_pattern.svg'
+import theme_pattern from '/theme_pattern.svg'
 
-const profile = `${import.meta.env.BASE_URL}assets/profile.jpg`;
+const profile = `${import.meta.env.BASE_URL}/profile.jpg`;
 
 const About = () => {
   

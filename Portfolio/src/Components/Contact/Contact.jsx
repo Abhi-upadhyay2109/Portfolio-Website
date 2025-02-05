@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './Contact.css'
-import theme_pattern from '/assets/theme_pattern.svg'
-import mail_icon from '/assets/mail_icon.svg'
-import location_icon from '/assets/location_icon.svg'
-import call_icon from '/assets/call_icon.svg'
-import linkdin_icon from '/assets/linkdin_icon.svg'
-import github_icon from '/assets/github_icon.svg'
+import theme_pattern from '/theme_pattern.svg'
+import mail_icon from '/mail_icon.svg'
+import location_icon from '/location_icon.svg'
+import call_icon from '/call_icon.svg'
+import linkdin_icon from '/linkdin_icon.svg'
+import github_icon from '/github_icon.svg'
 import { ToastContainer, toast } from 'react-toastify'
 const my_access_key = import.meta.env.VITE_API_ACCESS_KEY
 
