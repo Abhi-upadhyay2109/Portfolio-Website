@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import theme_pattern from '/theme_pattern.svg'
 
-const profile = `${import.meta.env.BASE_URL}/profile.jpg`;
+const profile = '/profile.jpg'
 
 const About = () => {
   
