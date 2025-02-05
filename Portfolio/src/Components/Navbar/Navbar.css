@@ -1,0 +1,145 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 120px;
+  width: 85%;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+}
+
+body {
+  padding-top: 80px;
+}
+
+.name-logo h1 {
+  font-size: 60px;
+  font-weight: 700;
+  background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+}
+
+.nav-connect {
+  padding: 15px 25px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #DA7C25 0.25%, #B923E1);
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-menu img {
+  display: flex;
+  margin: auto;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: aliceblue;
+}
+.nav-mob-open{
+  display: none;
+}
+
+.nav-mob-close {
+  display: none; 
+}
+
+
+@media(max-width:768px) {
+  .navbar {
+    margin: 0px 30px;
+  }
+
+  .name-logo h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .nav-connect {
+    display: none;
+  }
+
+  .nav-mob-open {
+    display: block;
+    position: fixed;
+    right: 30px;
+    cursor: pointer;
+  }
+
+  .nav-mob-close {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    left: 200px;
+    width: 30px;
+  }
+  
+
+  .nav-menu {
+    position: fixed;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: start;
+    top: 0px;
+    gap: 10px;
+    background-color: #1f0016;
+    width: 235px;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -280px; 
+  }
+
+  .nav-menu li {
+    padding-top: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    padding-left: 20px;
+    flex-direction: row;
+    gap: 10px;
+  }
+} 
+
+
+.nav-menu.show {
+  right: 0;
+}
+
+
+@media (min-width: 769px) {
+ 
+  .nav-mob-close {
+    display: none;
+  }
+}

@@ -1,0 +1,125 @@
+.hero{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+  margin-top: 40px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px; 
+  height: 250px; 
+  margin-top: 20px;
+  border-radius: 50%; 
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; 
+}
+
+
+.profile-container:hover .profile-image {
+  transform: scale(1.1); 
+}
+
+.hero h1{
+  text-align: center;
+  width: 74%;
+  font-size: 50px;
+  font-weight: 650;
+}
+
+.hero h1 span{
+  background: linear-gradient(267deg,#DA7C25 0.25%,#B923E1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p{
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.hero-action{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.hero-connect{
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 18px;
+  background: linear-gradient(267deg,#DA7C25 0.25%,#B923E1);
+  cursor: pointer;
+}
+
+.hero-resume{
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 22px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.hero-resume a {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+
+.hero-connect:hover{
+  border: 2px solid white;
+}
+
+.hero-resume:hover{
+  border-color: #B923E1;
+}
+
+@media(max-width:768px){
+  .hero h1{
+    text-align: center;
+    width: 90%;
+    font-size: 30px;
+    font-weight: 650;
+  }
+  .hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .hero-connect{
+    padding: 12px 15px;
+    border-radius: 40px;
+    font-size: 13px;
+   
+  }
+  .hero-resume{
+    padding:  12px 15px;
+    border-radius: 40px;
+    font-size: 13px;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
+  .hero-resume a {
+    font-size: 13px;
+    font-weight: bold;
+    
+  }
+}
